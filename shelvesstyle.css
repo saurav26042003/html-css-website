@@ -1,0 +1,537 @@
+
+*{
+    margin: 0;
+padding: 0;
+}
+ 
+.main{
+    height:40px;
+    width:100%;
+position: relative;
+    display:flex;
+
+}
+
+.main .a1{
+    height:100%px;
+    width:60%;
+font-size: 40px;
+font-family: serif;
+cursor: pointer;
+color: #000000;
+background-color: #1ad9b6;
+align-items: center;
+display: flex;
+position: relative;
+
+}
+.a1 p{
+position: absolute;
+left:80px;
+}
+.a1 i{
+    font-size: 30px;
+    position: absolute;
+    left:30px;
+    transform:all 0.03s;
+
+}
+.a1 i:hover{
+    transition: translate(1px);
+    font-size:25px;
+    
+    }
+.main .a2{
+    height:40px;
+    width:30%;
+
+
+}
+
+.a2 li{
+    cursor: pointer;
+    transform: all 0.03s;
+    font-size: 18px;
+    font-family: serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.a2 li:hover{
+    transition: translate(1px);
+    background-color: #1ad9b6;
+    border: 2px solid #1ad9b6 ;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.main .a3{
+    height:40px;
+    width:10%;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+cursor: pointer;
+}
+
+i{
+   
+    border-radius: 50px;
+}
+
+
+.a2 ul{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a3 i{
+font-size:25px;
+transform:all 0.03s;
+
+}
+.a3 i:hover{
+    transition: translate(1px);
+    font-size:28px;
+    
+    }
+
+    .a1 a{
+        position: absolute;
+        top: 5px;
+    }
+
+    .box{
+        height:60vh;
+        background-image: url(box5.webp);
+        border:2px solid rgb(255, 255, 255);
+        background-attachment: fixed;
+        background-position:center;
+        background-size:cover;
+        
+        
+        }
+        .main4{
+            height:40px;
+            width:100%; 
+            box-shadow: rgba(51, 255, 211, 0.4) 0px 5px, rgba(195, 253, 255, 0.3) 0px 10px, rgba(76, 255, 228, 0.2) 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(214, 235, 233, 0.05) 0px 25px;
+            border-radius: 40px;
+           
+        }
+        .a10{
+            height:100%;
+            width:100%;
+            background-color: #1ad9b6;
+          
+        }
+        .a10 ul{
+            height:100%;
+            width:100%;
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        cursor: pointer;
+        }
+        .a10 li{
+           text-decoration: underline;
+            border-radius: 6px;
+            font-size: 18px;
+            transform: all 0.03s;
+            font-family: serif;
+            text-shadow:1px  #292c2c;
+        }
+        .a10 li:hover{
+            background-color: #00ffd0;
+            font-size:20px ;
+        }
+        
+    .container{
+        height:400px;
+        width:100%;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border-radius: 10px;
+        display:flex;
+        position: relative;
+    }
+    
+    .a4{
+        height:100%;
+        width:60%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+       background-color: aliceblue;
+    }
+    
+  
+    
+    .a4 .p1{
+        font-size: 25px;
+        position: absolute;
+        background-color: #d3fff7;
+        left:20px;
+        top: 60px;
+       cursor: pointer;
+        color: #000000;
+    }
+
+    .a4 .p2{
+        font-size: 25px;
+        position: absolute;
+       
+        left:20px;
+        top: 180px;
+        cursor: pointer;
+        color: #000000;
+    }
+    
+ 
+    .b1{
+        font-size: 20px;
+        border: 2px solid #1ad9b6;
+        background-color: #1ad9b6;
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+        transform:all 0.03s;
+        position: absolute;
+        left:50px;
+        bottom:70px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .b1:hover{
+        transition:translate(1px);
+        font-size: 22px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .b2{
+        font-family:sans-serif ;
+        border: 1px solid #1ad9b6 ;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transform: all 0.03s;
+    position: absolute;
+    left:200px;
+    bottom:70px;
+    color: #1ad9b6;
+    font-weight: 400;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .b2:hover{
+        transition:translate(1px);
+        font-size: 22px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        
+    }
+    .c1 p{
+        font-size: 30px;
+        text-align: center;
+       font-weight: 400;
+        border-bottom: 2px solid #1ad9b6;
+        border-width: 1;
+        color:#171164;
+border-bottom-left-radius: 10cqi;
+border-bottom-right-radius: 10cqi ;
+font-family:'Times New Roman', Times, serif;
+
+    }
+    .c1{
+        height:80px;
+        width:100%;
+        background-color:#1ad9b6;
+        border-bottom-left-radius: 10cqi;
+border-bottom-right-radius: 10cqi ;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .a5{
+        height:100%;
+        width:40%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        background-image: url(s1.jpeg);
+        overflow: hidden;
+        background-position:center;
+        background-size:cover;
+        border-radius: 30px;
+        position: relative;
+        position: absolute;
+        right:20px;
+        transform: all 0.02s;
+    
+    
+    }
+    .a5:hover{
+        transition: translate(4px);
+    height:102%;
+    width:42%;
+    }
+
+    .container1{
+        height:400px;
+        width:100%;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border-radius: 10px;
+        display:flex;
+        position: relative;
+    }
+    
+    .a6{
+        height:100%;
+        width:60%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+       background-color: aliceblue;
+    }
+    
+  
+    
+    .a6 .p3{
+        font-size: 25px;
+        position: absolute;
+        background-color: #d3fff7;
+        left:20px;
+        top: 60px;
+       cursor: pointer;
+        color: #000000;
+    }
+
+    .a6 .p4{
+        font-size: 25px;
+        position: absolute;
+       
+        left:20px;
+        top: 180px;
+        cursor: pointer;
+        color: #000000;
+    }
+    
+ 
+    .b3{
+        font-size: 20px;
+        border: 2px solid #1ad9b6;
+        background-color: #1ad9b6;
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+        transform:all 0.03s;
+        position: absolute;
+        left:50px;
+        bottom:70px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .b3:hover{
+        transition:translate(1px);
+        font-size: 22px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .b4{
+        font-family:sans-serif ;
+        border: 1px solid #1ad9b6 ;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transform: all 0.03s;
+    position: absolute;
+    left:200px;
+    bottom:70px;
+    color: #1ad9b6;
+    font-weight: 400;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .b4:hover{
+        transition:translate(1px);
+        font-size: 22px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        
+    }
+  
+    .a7{
+        height:100%;
+        width:40%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        background-image: url(s2.jpeg);
+        overflow: hidden;
+        background-position:center;
+        background-size:cover;
+        border-radius: 30px;
+        position: relative;
+        position: absolute;
+        right:20px;
+        transform: all 0.02s;
+    
+    
+    }
+    .a7:hover{
+        transition: translate(4px);
+    height:102%;
+    width:42%;
+    }
+
+    .container2{
+        height:400px;
+        width:100%;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border-radius: 20px;
+        display:flex;
+        position: relative;
+    }
+    
+    .a8{
+        height:100%;
+        width:60%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+       background-color: aliceblue;
+    }
+    
+  
+    
+    .a8 .p5{
+        font-size: 25px;
+        position: absolute;
+        background-color: #d3fff7;
+        left:20px;
+        top: 60px;
+       cursor: pointer;
+        color: #000000;
+    }
+
+    .a8 .p6{
+        font-size: 25px;
+        position: absolute;
+       
+        left:20px;
+        top: 180px;
+        cursor: pointer;
+        color: #000000;
+    }
+    
+ 
+    .b5{
+        font-size: 20px;
+        border: 2px solid #1ad9b6;
+        background-color: #1ad9b6;
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+        transform:all 0.03s;
+        position: absolute;
+        left:50px;
+        bottom:70px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .b5:hover{
+        transition:translate(1px);
+        font-size: 22px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .b6{
+        font-family:sans-serif ;
+        border: 1px solid #1ad9b6 ;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transform: all 0.03s;
+    position: absolute;
+    left:200px;
+    bottom:70px;
+    color: #1ad9b6;
+    font-weight: 400;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .b6:hover{
+        transition:translate(1px);
+        font-size: 22px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        
+    }
+  
+    .a9{
+        height:100%;
+        width:40%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        background-image: url(s3.jpeg);
+        overflow: hidden;
+        background-position:center;
+        background-size:cover;
+        border-radius: 30px;
+        position: relative;
+        position: absolute;
+        right:20px;
+        transform: all 0.02s;
+    
+    
+    }
+    .a9:hover{
+        transition: translate(4px);
+    height:102%;
+    width:42%;
+    }
+    .last{
+        height:200px;
+        width:100%;
+        border:1px solid rgb(75, 249, 255);
+        display: flex;
+        background-color:aliceblue;
+        position:relative;
+        border-radius: 5px;
+        font-family:'Times New Roman', Times, serif;
+        background-color: #1ad9b6;
+    }
+    .z1{
+        height:100%;
+        width:50%;
+
+color: rgb(0, 0, 0);
+    }
+    .z1 p{
+position: absolute;
+left:20px;
+top:40px;
+font-family:'Times New Roman', Times, serif;
+    }
+
+    .z2{
+        height:100%;
+        width:50%;
+
+color:rgb(46, 225, 219);
+
+    }
+    #searchBar {
+        width: 300px; /* Adjust the width as needed */
+        height: 40px; /* Adjust the height as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+        position: absolute;
+        left:50%;
+        top:50px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+        border-radius: 5px;
+      }
+      .z3{
+        width: 100px; /* Adjust the width as needed */
+        height: 44px; /* Adjust the height as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+        position: absolute;
+        left:70%;
+        top:50px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+        transform: all 0.03s;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+      }
+      .z3:hover{
+        transition: translate(1px);
+        background-color:#1ad9b6;
+        border: #1ad9b6;
+        border-radius: 3px;
+        font-size: 18px;
+      }
+      .a10 a{
+        color: #000000;
+    }

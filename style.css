@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+padding: 0;
+}
+ 
+.main{
+    height:40px;
+    width:100%;
+position: relative;
+    display:flex;
+
+}
+
+.main .a1{
+    height:100%px;
+    width:60%;
+font-size: 40px;
+font-family: serif;
+cursor: pointer;
+color: #000000;
+background-color: #1ad9b6;
+align-items: center;
+display: flex;
+position: relative;
+
+}
+.a1 p{
+position: absolute;
+left:80px;
+}
+.a1 a{
+    position: absolute;
+    top: 5px;
+}
+.box{
+height:60vh;
+background-image: url(background.jpg);
+border:2px solid rgb(255, 255, 255);
+background-attachment: fixed;
+background-position:center;
+background-size:cover;
+
+
+}
+
+.main .a2{
+    height:40px;
+    width:30%;
+
+
+}
+
+.a2 li{
+    cursor: pointer;
+    transform: all 0.03s;
+    font-size: 18px;
+    font-family: serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.a2 li:hover{
+    transition: translate(1px);
+    background-color: #1ad9b6;
+    border: 2px solid #1ad9b6 ;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.main .a3{
+    height:40px;
+    width:10%;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+cursor: pointer;
+}
+
+i{
+   
+    border-radius: 50px;
+}
+
+.a1 i{
+    font-size: 30px;
+    position: absolute;
+    left:30px;
+    transform:all 0.03s;
+
+}
+.a1 i:hover{
+    transition: translate(1px);
+    font-size:25px;
+    
+    }
+
+.a2 ul{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a3 i{
+font-size:30px;
+transform:all 0.03s;
+
+}
+.a3 i:hover{
+    transition: translate(1px);
+    font-size:28px;
+    
+    }
+
+.container{
+    height:400px;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    display:flex;
+    position: relative;
+}
+
+.a4{
+    height:100%;
+    width:60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.a4 h1{
+    font-size: 70px;
+    position: absolute;
+    left:30px;
+    text-shadow: 1px 1px #474747;
+    
+    
+}
+
+.a4 p{
+    font-size: 35px;
+    position: absolute;
+    left:30px;
+    bottom: 130px;
+}
+
+.b1{
+    font-size: 20px;
+    border: 2px solid #1ad9b6;
+    background-color: #1ad9b6;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transform:all 0.03s;
+    position: absolute;
+    left:40px;
+    bottom:40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.b1:hover{
+    transition:translate(1px);
+    font-size: 22px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.b2{
+    font-family:sans-serif ;
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+cursor: pointer;
+transform: all 0.03s;
+position: absolute;
+left:180px;
+bottom:40px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.b2:hover{
+    transition:translate(1px);
+    font-size: 22px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+.a5{
+    height:100%;
+    width:40%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: url(https://img.freepik.com/free-photo/blue-armchair-against-blue-wall-living-room-interior-elegant-interior-design-with-copy-space-ai-generative_123827-23719.jpg?size=626&ext=jpg&ga=GA1.1.876562358.1706259835&semt=sph);
+    overflow: hidden;
+    background-position:center;
+	background-size:cover;
+    border-radius: 30px;
+    position: relative;
+    position: absolute;
+    right:20px;
+    transform: all 0.02s;
+
+
+}
+.a5:hover{
+    transition: translate(4px);
+height:102%;
+width:42%;
+}
+.a5 h1{
+    position: absolute;
+    bottom: 100px;
+    font-size: 50px;
+    color: white;
+    font-family:serif;
+    left:20px;
+}
+
+.a5 p{
+    color: white;
+    position: absolute;
+left:20px;
+    bottom:75px;
+    font-size: 25px;
+    font-family:serif;
+}
+
+.main3{
+    height:200px;
+    width:100%;
+   position: relative;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 10px;;
+}
+
+.a6{
+    height:100%;
+    width:50%;
+   
+}
+.a6 h1{
+    font-size: 75px;
+    font-family:serif;
+    position: absolute;
+    left:30px;
+}
+
+.a7{
+    height:100%;
+    width:50%;
+  
+}
+.a7 p{
+    font-size: 35px;
+    font-family:serif;
+}
+
+.main4{
+    height:40px;
+    width:100%; 
+
+   
+}
+.a8{
+    height:100%;
+    width:100%;
+    background-color: #1ad9b6;
+  
+}
+.a8 ul{
+    height:100%;
+    width:100%;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+cursor: pointer;
+}
+.a8 li{
+   text-decoration: underline;
+    border-radius: 6px;
+    font-size: 18px;
+    transform: all 0.03s;
+    font-family: serif;
+    text-shadow:1px  #292c2c;
+   
+}
+.a8 li:hover{
+    background-color: #00ffd0;
+    font-size:20px ;
+}
+.a8 a{
+    color: #000000;
+}
+.main5{
+    height:300px;
+    width:100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.a9{
+    height:99%;
+    width:20%;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow: hidden;
+   background-color:#d9e4e2 ;
+   border-radius: 10px;
+   align-items: center;
+   transform: all 0.02s;
+
+}
+
+.a9 img{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+    transform: all 0.02s;
+    
+}
+.a9:hover{
+    transition: translate(4px); 
+height:99.5%;
+width:20.5%;
+}
+.a10{
+    height:99%;
+    width:20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color:#d9e4e2 ;
+    align-items: center;
+    border-radius: 10px;
+    transform: all 0.02s;
+}
+.a10 img{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+}
+.a10:hover{
+    transition: translate(4px); 
+height:99.5%;
+width:20.5%;
+}
+.a11{
+    height:99%;
+    width:20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color:#d9e4e2 ;
+    align-items: center;
+    border-radius: 10px;
+    transform: all 0.02s;
+}
+.a11 img{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+    transform: all 0.02s;
+}
+.a11:hover{
+    transition: translate(4px); 
+height:99.5%;
+width:20.5%;
+}
+.a12{
+    height:99%;
+    width:20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color:#d9e4e2 ;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    overflow: hidden;
+    background-position:center;
+    background-attachment: fixed;
+}
+.a12 img{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    align-items: center;
+    border-radius: 10px;
+    transform: all 0.02s;
+}
+.a12:hover{
+    transition: translate(4px); 
+height:99.5%;
+width:20.5%;
+}
+
+.main6{
+    height:100px;
+    width:100%;
+   
+    justify-content: space-evenly;
+    display: flex;
+}
+.a13{
+    height:100%;
+    width:20%;
+   
+    text-align: center;
+    font-size: 25px;
+}
+.a14{
+    height:100%;
+    width:20%;
+
+    text-align: center;
+    font-size: 25px;
+}
+.a15{
+    height:100%;
+    width:20%;
+   
+    text-align: center;
+    font-size: 25px;
+}
+.a16{
+    height:100%;
+    width:20%;
+    
+    text-align: center;
+    font-size: 25px;
+}
+
+.main7{
+    height:500px;
+    width:100%;
+   position: relative;
+    display: flex;
+    justify-content:space-evenly ;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.a17{
+height:100%;
+width:50%;
+position:absolute;
+overflow: hidden;
+left: 30px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+border-radius: 10px;
+
+}
+.a17 img{
+    height:100%;
+    width:100%;
+    transform:all 0.02s;
+}
+.a17:hover{
+    transition: translate(4px); 
+height:102%;
+width:51%;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.a18{
+    height:100%;
+    width:50%;
+   
+    position: relative;
+    position:absolute;
+    left:800px;
+    
+    }
+    .a18 h1{
+        font-size: 70px;
+        position:absolute;
+        bottom:100px;
+        left:10px;
+        transform:all 0.03s;
+        text-shadow:1px 1px #251e1e;
+
+    }
+    .a18 h1:hover{
+        transition: translate(1px);
+
+    }
+
+    .a18 p{
+        font-size: 35px;
+        position:absolute;
+        bottom:0px;
+        left:10px;
+    }
+
+    .last{
+        height:200px;
+        width:100%;
+        border:1px solid rgb(75, 249, 255);
+        display: flex;
+        background-color:aliceblue;
+        position:relative;
+        border-radius: 5px;
+        font-family:'Times New Roman', Times, serif;
+        background-color: #1ad9b6;
+    }
+    .z1{
+        height:100%;
+        width:50%;
+
+color: rgb(0, 0, 0);
+    }
+    .z1 p{
+position: absolute;
+left:20px;
+top:40px;
+font-family:'Times New Roman', Times, serif;
+    }
+
+    .z2{
+        height:100%;
+        width:50%;
+
+color:rgb(46, 225, 219);
+
+    }
+    #searchBar {
+        width: 300px; /* Adjust the width as needed */
+        height: 40px; /* Adjust the height as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+        position: absolute;
+        left:50%;
+        top:50px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+        border-radius: 5px;
+      }
+      .z3{
+        width: 100px; /* Adjust the width as needed */
+        height: 44px; /* Adjust the height as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+        position: absolute;
+        left:70%;
+        top:50px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+        transform: all 0.03s;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+      }
+      .z3:hover{
+        transition: translate(1px);
+        background-color:#1ad9b6;
+        border: #1ad9b6;
+        border-radius: 3px;
+        font-size: 18px;
+      }
+
+      <video autoplay muted loop id="video-bg">
+      <!-- <source src="mylivewallpapers-com-Itachi-Red-Smoke-4K.mp4" type="video/mp4"> </video> -->
